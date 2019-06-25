@@ -1,6 +1,6 @@
-# Development
+# Development Setup
 
-- Operating System
-  - [Ubuntu 18.04 LTS](os/ubuntu.md)
-- Development Environment
-  - [Intellij](env/intellij.md)
+> Convention for adding images
+1. Add a folder with the same name as the topic
+`ubuntu.md = ubuntu folder`
+2. Reference your image with `![ubuntu icon](ubuntu/icon.png?raw=true)`
