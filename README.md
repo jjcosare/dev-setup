@@ -1,7 +1,11 @@
 # dev-setup
 
-#How to publish this gitbook
+> Convention for adding images
+1. Add a folder with the same name as the topic
+`ubuntu.md = ubuntu folder`
+2. Reference your image with `![ubuntu icon](ubuntu/icon.png?raw=true)`
 
+# Pre-requisite for using gitbook
 > Install gitbook 
 ```
 # please refer to the following installation docs:
@@ -11,12 +15,25 @@
 4. doc/env/gitbook.md
 ```
 
-> Make publishDocs.sh executable
+> Make publishDoc*.sh executable
 ```
-$ chmod +x publishDocs.sh
+$ chmod +x publishDoc*.sh
 ```
 
-> Run publishDocs.sh
+#How to publish this gitbook to localhost
+
+> Run publishDocDev.sh
 ```
-$ ./publishDocs.sh
+$ ./publishDocDev.sh
 ```
+
+> On intellij, Goto `_book` folder and right click `index.html` then `Open in Browser > Default`
+
+#How to publish this gitbook to github.io
+
+> Run publishDocProd.sh
+```
+$ ./publishDocProd.sh
+```
+
+> On browser, open url `https://jjcosare.github.io/dev-setup`
