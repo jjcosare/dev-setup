@@ -1,5 +1,5 @@
+# publishDocs.sh from https://github.com/ochrons/scalajs-spa-tutorial
 #!/bin/sh
-
 rm -rf _book
 gitbook build doc _book
 cd _book
