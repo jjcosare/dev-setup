@@ -4,7 +4,11 @@
 
 > Install gitbook 
 ```
-# please refer to doc/env/nodejs.md and doc/env/gitbook.md
+# please refer to the following installation docs:
+1. doc/env/git.md
+2. doc/env/github.md
+3. doc/env/nodejs.md 
+4. doc/env/gitbook.md
 ```
 
 > Make publishDocs.sh executable
