@@ -2,6 +2,7 @@
 
 ####Steps
 > Open 'Disks' application
+
 ```bash
 gnome-disks
 ```
@@ -13,11 +14,13 @@ gnome-disks
 `UUID ef8037e5-xxxx-xxxx-xxxx-dd49609d0280`
 
 > Open your `fstab`
+
 ```bash
 sudo gedit /etc/fstab
 ```
 
 > Add/Replace below details to your `fstab` then save and close `gedit`
+
 ```bash
 UUID=ef8037e5-xxxx-xxxx-xxxx-dd49609d0280  /media/data    ext4    relatime,noexec  0  2
 ```
@@ -25,6 +28,7 @@ UUID=ef8037e5-xxxx-xxxx-xxxx-dd49609d0280  /media/data    ext4    relatime,noexe
 > Remounts all partitions on `fstab` except with `noauto` option
 
 > Restart PC and after, open terminal and run the command:
+
 ```bash
 sudo chown {yourhomefolder}:{yourhomefolder} /media/data
 ```
