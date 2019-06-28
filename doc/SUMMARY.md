@@ -2,6 +2,7 @@
 
 - Operating System
   - [Ubuntu 18.04 LTS](os/ubuntu.md)
+  - [NVIDIA Graphics Driver](os/videographics.md)
   - [Hibernate Button](os/hibernateButton.md)
   - [Backup](os/backup.md)
   
