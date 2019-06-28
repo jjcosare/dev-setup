@@ -1,7 +1,7 @@
 #Backup 
 
+####Steps
 > Open 'Disks' application
-
 ```bash
 gnome-disks
 ```
@@ -13,21 +13,20 @@ gnome-disks
 `UUID ef8037e5-xxxx-xxxx-xxxx-dd49609d0280`
 
 > Open your `fstab`
-
 ```bash
 sudo gedit /etc/fstab
 ```
 
 > Add/Replace below details to your `fstab` then save and close `gedit`
-
 ```bash
 UUID=ef8037e5-xxxx-xxxx-xxxx-dd49609d0280  /media/data    ext4    relatime,noexec  0  2
 ```
 
 > Remounts all partitions on `fstab` except with `noauto` option
 
+> Restart PC and after, open terminal and run the command:
 ```bash
-sudo mount -av
+sudo chown {yourhomefolder}:{yourhomefolder} /media/data
 ```
 
 > Create folder ".bak" on your `500gb HD` 
@@ -66,6 +65,6 @@ mkdir /media/data/.bak
 
 > Set `Keep` to `At least six months` 
 
-<br />
+> Restart PC
 
 > To test backup, goto `Overview` menu then click `Backup Up Now...` 
