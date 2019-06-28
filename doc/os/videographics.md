@@ -8,11 +8,14 @@
 >Go to this website https://www.nvidia.com/Download/index.aspx?lang=en-us and fill-up the form like shown below but based on your video graphics product and click **Search**.
 ![VG Image 1](videographics/vgimg01.png)
 
+<br/>
+
 >You will see the version number of the driver in the next screen and take note of that one. In my case it is **430.86**.
 
 >Open terminal via application menu or you can use the shortcut  **Ctrl+Alt+T**.
 
 >When it opens, run the command: 
+
 ```bash 
 sudo add-apt-repository ppa:graphics-drivers/ppa
 ```
@@ -21,14 +24,19 @@ sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt update
 ```
 
+
 >After that, Launch **Software & Updates** utility and navigate to **Addtional Drivers** tab. Click on the version based on Step 2, then click **Apply Changes**.
 ![VG Image 2](videographics/vgimg02.png)
 
+<br/>
+
 >In addition, if the driver does not install after clicking **Apply Changes**, try running command in terminal:
+
 ```bash
 sudo apt install nvidia-driver-430 nvidia-settings
 ```
->8. Once successfully installed, restart your PC. Finally, verify it if you can now use dual monitor setup and if you can now search for NVIDIA Settings in your application menu.
+
+>Once successfully installed, restart your PC. Finally, verify it if you can now use dual monitor setup and if you can now search for NVIDIA Settings in your application menu.
 
 ####Next Step
 > [Setting up Hibernate on Ubuntu](hibernateButton.md)
