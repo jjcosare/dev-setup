@@ -2,8 +2,6 @@
 
 > Base Project for Weekly Assignments : Setup
 
-1. Please refer to `./coursera-progfun1` as base project
-
 1. Copy the folder `./coursera-progfun1` on your desired location
 
 1. Upload the contents of `coursera-progfun1` to your github repo
