@@ -18,16 +18,16 @@
 
 > Make publishDoc*.sh executable
 
-```
-$ chmod +x publishDoc*.sh
+```bash
+chmod +x publishDoc*.sh
 ```
 
 #How to publish this gitbook to localhost
 
 > Run publishDocDev.sh
 
-```
-$ ./publishDocDev.sh
+```bash
+./publishDocDev.sh
 ```
 
 > On intellij, Goto `_book` folder and right click `index.html` then `Open in Browser > Default` to view updated doc
@@ -36,8 +36,8 @@ $ ./publishDocDev.sh
 
 > Run publishDocProd.sh
 
-```
-$ ./publishDocProd.sh
+```bash
+./publishDocProd.sh
 ```
 
-> On browser, open url `https://jjcosare.github.io/dev-setup` to view updated doc
+> Your default browser will open `https://jjcosare.github.io/dev-setup`, refresh this after a few minutes to see your changes reflected

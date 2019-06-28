@@ -4,19 +4,28 @@
 
 #### Check if hibernate is available
 
-1. Go to terminal, or `Ctrl+Alt+T`
+1. Go to terminal, or `Ctrl`+`Alt`+`T`
 
-2. run command:<br/> `sudo systemctl hibernate` or `sudo pm-hibernate`
+2. Run command:<br/> 
+```bash 
+sudo systemctl hibernate
+```
+or 
+```bash 
+sudo pm-hibernate
+```
 
 (If hibernate does not work, check [this answer in ubuntu](https://askubuntu.com/questions/768136/how-can-i-hibernate-on-ubuntu-16-04/819891#819891))
 
 #### Pre-requisite Hibernate in Menus
 
-1. Back to terminal, run command:<br/> `sudo gedit /etc/polkit-1/localauthority/50-local.d/com.ubuntu.enable-hibernate.pkla
- `
+1. Back to terminal, run command:<br/> 
+```bash
+sudo gedit /etc/polkit-1/localauthority/50-local.d/com.ubuntu.enable-hibernate.pkla
+```
  
 2. A file should open. Paste this content in the file and save.
-```
+```bash
 [Re-enable hibernate by default in upower]
 Identity=unix-user:*
 Action=org.freedesktop.upower.hibernate

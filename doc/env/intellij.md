@@ -2,8 +2,8 @@
 
 > Install intellij via snap
 
-``` 
-$ sudo snap install intellij-idea-ultimate --classic
+```bash
+sudo snap install intellij-idea-ultimate --classic
 ```
 
 > On `Applications`, search intellij then click intellij icon

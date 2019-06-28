@@ -12,10 +12,21 @@
 
 1. Note: `coursera-progfun1` is structured as a multi-module project but this is only used to resolve project detection by intellij's sbt plugin and hence we can't use the main project to `submit` answers to coursera
 
-1. Using intellij's terminal, change directory to your desired sub-project and run sbt then submit
+1. Using intellij's terminal, create new terminal 
 
-```
-$ cd w1-example
-$ sbt
-$ submit {email} {token}
+> Change directory to your desired sub-project
+
+```bash
+cd w1-example
 ``` 
+> Run sbt
+
+```bash
+sbt
+``` 
+> Submit your answer to coursera
+
+```bash
+submit {email} {token}
+``` 
+

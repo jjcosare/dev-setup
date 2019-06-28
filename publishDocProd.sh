@@ -1,8 +1,11 @@
 # publishDocs.sh from https://github.com/ochrons/scalajs-spa-tutorial
 #!/bin/sh
-rm -rf _book
-gitbook build doc _book
-cd _book
+
+cd doc
+gitbook install
+rm -rf ../_book
+gitbook build ./ ../_book
+cd ../_book
 git init
 git commit --allow-empty -m 'update book'
 git checkout -b gh-pages

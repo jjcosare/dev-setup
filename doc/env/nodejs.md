@@ -1,31 +1,37 @@
 #[Installing Node Js](https://tecadmin.net/install-nodejs-with-nvm/)
 
+> Install curl
+
+```bash 
+sudo apt update && sudo apt install curl
+```
+
 > Get nvm install.sh and run with bash
 
-``` 
-$ curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+```bash 
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 ```
 
 > Reload enviroment variables in ~/.profile
 
-``` 
-$ source ~/.profile
+```bash
+source ~/.profile
 ```
 
 > Reload enviroment variables in ~/.bashrc
 
-``` 
-$ source ~/.bashrc
+```bash
+source ~/.bashrc
 ```
 
 > Install latest npm and lts version
 
-``` 
-$ nvm install --latest-npm --lts=dubnium
+```bash
+nvm install --latest-npm --lts=dubnium
 ```
 
 > Check installation by calling node version
 
-``` 
-$ node -v
+```bash
+node -v
 ```

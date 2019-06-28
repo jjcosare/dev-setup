@@ -1,13 +1,11 @@
 #[Installing Gitbook](https://www.npmjs.com/package/gitbook)
 
-> Install nodejs 
+> Install [nodejs](nodejs.md) 
 
-```
-# please refer to nodejs installation
-```
+<br />
 
 > Install gitbook via npm
 
-```
-$ npm install gitbook-cli -g
+```bash
+npm install gitbook-cli -g
 ```

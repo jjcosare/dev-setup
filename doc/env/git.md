@@ -2,19 +2,24 @@
 
 > Install git via apt
 
-```
-$ sudo apt install git
+```bash
+sudo apt update && sudo apt install git
 ```
 
 > Check installation by calling git version
 
-```
-$ git --version
+```bash
+git --version
 ```
 
-> Set global username and email
+> Set git global username
 
+```bash
+git config --global user.name "Your Name"
 ```
-$ git config --global user.name "Your Name"
-$ git config --global user.email "youremail@domain.com"
+
+> Set git global email
+
+```bash
+git config --global user.email "youremail@domain.com"
 ```

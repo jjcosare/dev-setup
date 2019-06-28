@@ -1,4 +1,6 @@
 #!/bin/sh
 
-rm -rf _book
-gitbook build doc _book
+cd doc
+gitbook install
+rm -rf ../_book
+gitbook build ./ ../_book
