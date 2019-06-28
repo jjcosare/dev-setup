@@ -2,9 +2,13 @@
 
 > Base Project for Weekly Assignments : Setup
 
-1. Copy the folder `./coursera-progfun1` on your desired location
+1. Create a private github repo `coursera-progfun1`
 
-1. Upload the contents of `coursera-progfun1` to your github repo
+1. Clone your private github repo `coursera-progfun1`
+
+1. Copy the contents of folder [coursera-progfun1](https://github.com/jjcosare/dev-setup/tree/master/coursera-progfun1) (`Ctrl`+`A` then `Ctrl`+`C`)
+
+1. Git commit all contents
 
 1. Import the project to intellij using `coursera-progfun1/build.sbt`
 
