@@ -10,10 +10,13 @@
 
 1. Import the project to intellij using `coursera-progfun1/build.sbt`
 
-1. Open `coursera-progfun1/.gitignore` and add on last line `*/build.sbt` then commit changes to your github repo
-
-1. Uncomment `line 14` of all sub-projects build.sbt `w*-*/build.sbt`
-
 1. Note: `coursera-progfun1` is structured as a multi-module project but this is only used to resolve project detection by intellij's sbt plugin and hence we can't use the main project to `submit` answers to coursera
 
-1. Using intellij's terminal, change directory to your desired sub-project (`$ cd w1-example`) and then run `$ submit {email} {token}` to pass your answers to coursera
+1. Using intellij's terminal, change directory to your desired sub-project (`$ cd w1-example`) and then run 
+
+```
+$ sbt
+$ submit {email} {token}
+``` 
+
+to pass your answers to coursera

@@ -11,7 +11,7 @@ libraryDependencies += "junit" % "junit" % "4.10" % Test
 libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.4"
 
 // include the common dir
-//commonSourcePackages += "common"
+commonSourcePackages := Seq("common")
 
 courseId := "bRPXgjY9EeW6RApRXdjJPw"
 
